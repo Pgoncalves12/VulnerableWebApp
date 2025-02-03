@@ -24,7 +24,7 @@ jobs:
           polaris_assessment_types: "SCA,SAST"
             
           ### Uncomment below configuration if Synopsys Bridge diagnostic files needs to be uploaded
-          # include_diagnostics: true
+          include_diagnostics: true
 
           ### SARIF report generation and upload to GitHub Adavanced Security Tab: Uncomment below to enable
           # polaris_reports_sarif_create: true  
